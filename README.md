@@ -146,7 +146,7 @@ Now we also define an endpoint to get all Pedelecs that returns all existing Ped
                   $ref: '#/components/schemas/PedelecFullData'
 ```
 Lastly we add an endpoint to get a single Pedelec given its' ID:
-```
+```yaml
 /pedelecs/{id}:
     get:
       summary: Get a specific Pedelec by ID
